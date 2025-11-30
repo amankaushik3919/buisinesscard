@@ -120,7 +120,7 @@ fun ContactInfoSection(modifier: Modifier = Modifier) {
         ContactInfoRow(
             image = painterResource(id = R.drawable.mail),
             iconDescription = "Email Icon",
-            text = "amankaushiksome@gmail.com"
+            text = "amankaushiksme@gmail.com"
         )
     }
 }
