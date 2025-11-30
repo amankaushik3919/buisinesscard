@@ -110,7 +110,7 @@ fun ContactInfoSection(modifier: Modifier = Modifier) {
         ContactInfoRow(
             image = painterResource(id = R.drawable.callicon),
             iconDescription = "Call Icon",
-            text = "+91 8882050710"
+            text = "+91 1234567891"
         )
         ContactInfoRow(
             image = painterResource(id=R.drawable.insta),
