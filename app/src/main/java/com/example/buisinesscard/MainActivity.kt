@@ -69,7 +69,7 @@ fun ImageFunc(){
         Text(
             text = stringResource(R.string.name_string),
             modifier = Modifier
-                .padding(top = 16.dp),
+                .padding(top = 8.dp),
             style = MaterialTheme.typography.headlineLarge,
             color = MaterialTheme.colorScheme.primary
         )
@@ -110,7 +110,7 @@ fun ContactInfoSection(modifier: Modifier = Modifier) {
         ContactInfoRow(
             image = painterResource(id = R.drawable.callicon),
             iconDescription = "Call Icon",
-            text = "+91 8882050710"
+            text = "+91 1234567891"
         )
         ContactInfoRow(
             image = painterResource(id=R.drawable.insta),
@@ -120,7 +120,7 @@ fun ContactInfoSection(modifier: Modifier = Modifier) {
         ContactInfoRow(
             image = painterResource(id = R.drawable.mail),
             iconDescription = "Email Icon",
-            text = "amankaushik3919@gmail.com"
+            text = "amankaushiksome@gmail.com"
         )
     }
 }
